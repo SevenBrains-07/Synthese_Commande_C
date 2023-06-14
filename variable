@@ -1,3 +1,33 @@
+La programmation en langage C implique l'utilisation de variables, qui sont de petites informations temporaires stockées en mémoire vive (RAM). Les variables sont dites "variables" car elles peuvent changer de valeur pendant l'exécution du programme. Les programmes en langage C sont remplis de variables.
+
+Une variable en langage C est composée de deux éléments : une valeur et un nom. La valeur représente le nombre stocké par la variable, par exemple, 5. Le nom est utilisé pour identifier la variable dans le code. En C, il n'est pas nécessaire de retenir l'adresse mémoire de la variable, on utilise simplement des noms de variables et le compilateur se charge de faire la correspondance entre le nom et l'adresse mémoire.
+
+Lorsque vous choisissez un nom pour une variable en langage C, il y a certaines contraintes à respecter. Les noms de variables peuvent contenir uniquement des lettres minuscules, des lettres majuscules et des chiffres. Ils doivent commencer par une lettre et les espaces sont interdits, mais vous pouvez utiliser le caractère de soulignement "_" pour séparer les mots. Les accents et les symboles mathématiques sont interdits. De plus, le langage C fait la distinction entre les majuscules et les minuscules, donc des noms de variables tels que "largeur", "LARGEUR" et "LArgEuR" sont considérés comme trois variables distinctes.
+
+Il est recommandé de donner des noms clairs et compréhensibles aux variables. Bien qu'il soit possible d'utiliser des abréviations pour raccourcir les noms, il est préférable de privilégier des noms plus longs mais explicites. Par exemple, plutôt que d'abréger "nombreDeVies" en "ndv", il est préférable de conserver le nom complet pour faciliter la lisibilité du code.
+
+En langage C, il existe deux catégories principales de types de variables : les nombres entiers (integers) et les nombres décimaux (floating-point numbers). Les types entiers comprennent signed char, int et long, tandis que les types décimaux comprennent float et double. Les nombres décimaux sont écrits avec un point, par exemple 54.9 au lieu de 54,9.
+
+Chaque type de variable a une plage de valeurs minimale et maximale garantie par le langage. Par exemple, le type signed char peut stocker des valeurs de -127 à 127, tandis que le type int peut stocker des valeurs de -32 767 à 32 767. Ces plages de valeurs peuvent varier selon le système utilisé, mais il est important de les prendre en compte lors du choix d'un type de variable.
+
+Il existe également des types non signés (unsigned) pour les nombres entiers, qui ne peuvent stocker que des valeurs positives. Par exemple, unsigned char peut stocker des valeurs de 0 à 255. Les types non signés permettent de stocker des nombres deux fois plus grands que les types signés correspondants, mais ils ne peuvent pas stocker de nombres négatifs.
+
+Il est recommandé d'utiliser le type int pour les nombres entiers et le type double pour les nombres décimaux, sauf si vous avez des exigences spécifiques. Ces types sont généralement suffisants pour la plupart des applications.
+
+La déclaration d'une variable en C se fait en spécifiant son type suivi de son nom. Par exemple, pour déclarer une variable entière nommée "nombreDeVies", on utilise la syntaxe "int nombreDeVies;". La déclaration des variables est généralement effectuée au début des fonctions.
+
+Pour donner une valeur à une variable, on utilise l'opérateur d'affectation "=", qui attribue la valeur à droite de l'opérateur à la variable à gauche. Par exemple, "nombreDeVies = 5;" attribue la valeur 5 à la variable "nombreDeVies". Après avoir donné une valeur à une variable, vous pouvez la modifier en lui attribuant une nouvelle valeur à n'importe quel moment.
+
+Lorsqu'une variable est déclarée en C, sa valeur initiale n'est pas définie, elle peut contenir n'importe quelle valeur résiduelle présente en mémoire. Pour éviter des problèmes, il est recommandé d'initialiser les variables dès leur déclaration en leur attribuant une valeur appropriée. Par exemple, "int nombreDeVies = 0;" initialise la variable "nombreDeVies" avec la valeur 0.
+
+En plus des variables standard, il est également possible de déclarer des constantes en C. Les constantes sont des variables dont la valeur ne peut pas être modifiée une fois définie. Elles sont déclarées avec le mot-clé "const" et sont généralement écrites en majuscules. Par exemple, "const int NOMBRE_DE_VIES_INITIALES = 5;" déclare une constante nommée "NOMBRE_DE_VIES_INITIALES" avec une valeur de 5. Les constantes sont utilisées pour définir des valeurs fixes dans un programme et éviter toute modification accidentelle.
+
+En résumé, les variables en langage C sont des éléments essentiels pour stocker des informations temporaires en mémoire vive. Elles sont définies par un type, un nom et une valeur. Les types de variables incluent les entiers et les décimaux, et il existe des types signés et non signés pour les entiers. Les variables sont déclarées avec leur type et leur nom, et leur valeur peut être modifiée en utilisant l'opérateur d'affectation. Il est recommandé d'initialiser les variables dès leur déclaration et d'utiliser des noms clairs et compréhensibles. Les constantes sont utilisées pour définir des valeurs fixes et sont déclarées avec le mot-clé "const".
+
+
+<h>Exemple :</h>
+
+
 #include <stdio.h>
 
 int main() {

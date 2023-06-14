@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() {
+    // Déclaration d'une variable entière nommée "nombreDeVies"
+    int nombreDeVies;
+
+    // Initialisation de la variable "nombreDeVies" avec la valeur 5
+    nombreDeVies = 5;
+
+    // Affichage de la valeur de la variable "nombreDeVies"
+    printf("Le nombre de vies est : %d\n", nombreDeVies);
+
+    // Déclaration et initialisation d'une constante entière nommée "NOMBRE_DE_VIES_INITIALES"
+    const int NOMBRE_DE_VIES_INITIALES = 5;
+
+    // Utilisation de la constante pour initialiser une autre variable entière
+    int viesRestantes = NOMBRE_DE_VIES_INITIALES;
+
+    // Modification de la valeur de la variable "viesRestantes"
+    viesRestantes--;
+
+    // Affichage de la valeur de la variable "viesRestantes"
+    printf("Il reste %d vies\n", viesRestantes);
+
+    return 0;
+}
+
+Explication :
+Ce programme déclare une variable nombreDeVies de type entier (int) pour représenter le nombre de vies d'un joueur. 
+La variable est ensuite initialisée avec la valeur 5.
+
+Ensuite, une constante NOMBRE_DE_VIES_INITIALES est déclarée et initialisée avec la même valeur 5. 
+Cette constante représente le nombre de vies initiales d'un joueur, qui ne changera pas par la suite.
+
+Une autre variable viesRestantes est déclarée et initialisée avec la valeur de la constante NOMBRE_DE_VIES_INITIALES. 
+La valeur de viesRestantes est ensuite décrémentée de 1 à l'aide de l'opérateur de décrémentation --.
+
+Finalement, les valeurs des variables nombreDeVies et viesRestantes sont affichées à l'écran à l'aide de la fonction printf().

@@ -1,3 +1,4 @@
+
 La programmation en langage C implique l'utilisation de variables, qui sont de petites informations temporaires stockées en mémoire vive (RAM). Les variables sont dites "variables" car elles peuvent changer de valeur pendant l'exécution du programme. Les programmes en langage C sont remplis de variables.
 
 Une variable en langage C est composée de deux éléments : une valeur et un nom. La valeur représente le nombre stocké par la variable, par exemple, 5. Le nom est utilisé pour identifier la variable dans le code. En C, il n'est pas nécessaire de retenir l'adresse mémoire de la variable, on utilise simplement des noms de variables et le compilateur se charge de faire la correspondance entre le nom et l'adresse mémoire.

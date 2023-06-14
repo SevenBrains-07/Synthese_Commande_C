@@ -11,7 +11,8 @@ int main() {
     printf("La valeur de num est : %d\n", num);
     return 0;
 }
-_______________________________________________________________________________________________________________________//scanf : Cette commande est utilisée pour lire des données à partir de l'entrée standard (souvent le clavier). Elle permet de récupérer des valeurs entrées par l'utilisateur et de les stocker dans des variables.
+_______________________________________________________________________________________________________________________
+//scanf : Cette commande est utilisée pour lire des données à partir de l'entrée standard (souvent le clavier). Elle permet de récupérer des valeurs entrées par l'utilisateur et de les stocker dans des variables.
 
 #include <stdio.h>
 
@@ -22,7 +23,8 @@ int main() {
     printf("Vous avez %d ans.\n", age);
     return 0;
 }
-_______________________________________________________________________________________________________________________//if : Cette commande est utilisée pour exécuter une certaine partie du code seulement si une condition est vraie. Elle permet de réaliser des branchements conditionnels.
+_______________________________________________________________________________________________________________________
+//if : Cette commande est utilisée pour exécuter une certaine partie du code seulement si une condition est vraie. Elle permet de réaliser des branchements conditionnels.
 														       #include <stdio.h>
 
 int main() {
@@ -32,7 +34,8 @@ int main() {
     }
     return 0;
 }
-_______________________________________________________________________________________________________________________//else : Cette commande est utilisée en conjonction avec if. Si la condition de l'if est fausse, le bloc de code situé après else sera exécuté.
+_______________________________________________________________________________________________________________________
+//else : Cette commande est utilisée en conjonction avec if. Si la condition de l'if est fausse, le bloc de code situé après else sera exécuté.
 														       #include <stdio.h>
 
 int main() {
@@ -44,7 +47,8 @@ int main() {
     }
     return 0;
 }
-_______________________________________________________________________________________________________________________//for : Cette commande permet d'effectuer une boucle avec une structure prédéfinie. Elle se compose d'une initialisation, d'une condition de continuation et d'une instruction d'incrémentation.
+_______________________________________________________________________________________________________________________
+//for : Cette commande permet d'effectuer une boucle avec une structure prédéfinie. Elle se compose d'une initialisation, d'une condition de continuation et d'une instruction d'incrémentation.
 														       #include <stdio.h>
 
 int main() {
@@ -55,7 +59,8 @@ int main() {
     printf("\n");
     return 0;
 }
-_______________________________________________________________________________________________________________________//while : Cette commande permet d'exécuter un bloc de code tant qu'une condition spécifiée est vraie. Elle vérifie la condition avant d'exécuter le bloc de code.
+_______________________________________________________________________________________________________________________
+//while : Cette commande permet d'exécuter un bloc de code tant qu'une condition spécifiée est vraie. Elle vérifie la condition avant d'exécuter le bloc de code.
 														       #include <stdio.h>
 
 int main() {
@@ -67,7 +72,8 @@ int main() {
     printf("\n");
     return 0;
 }
-_______________________________________________________________________________________________________________________//do-while : Cette commande est similaire à while, mais elle vérifie la condition après avoir exécuté le bloc de code. Ainsi, le bloc de code sera exécuté au moins une fois, même si la condition est fausse.
+_______________________________________________________________________________________________________________________
+//do-while : Cette commande est similaire à while, mais elle vérifie la condition après avoir exécuté le bloc de code. Ainsi, le bloc de code sera exécuté au moins une fois, même si la condition est fausse.
 														       #include <stdio.h>
 
 int main() {
@@ -79,7 +85,8 @@ int main() {
     printf("\n");
     return 0;
 }
-_______________________________________________________________________________________________________________________//switch : Cette commande est utilisée pour effectuer une sélection multiple. Elle permet de comparer une expression à une liste de cas et d'exécuter le bloc de code correspondant à la première correspondance.
+_______________________________________________________________________________________________________________________
+//switch : Cette commande est utilisée pour effectuer une sélection multiple. Elle permet de comparer une expression à une liste de cas et d'exécuter le bloc de code correspondant à la première correspondance.
 														       #include <stdio.h>
 
 int main() {
@@ -99,7 +106,8 @@ int main() {
     }
     return 0;
 }
-_______________________________________________________________________________________________________________________//break : Cette commande est utilisée pour sortir d'une boucle (for, while, do-while) ou d'un bloc switch.
+_______________________________________________________________________________________________________________________
+//break : Cette commande est utilisée pour sortir d'une boucle (for, while, do-while) ou d'un bloc switch.
 														       #include <stdio.h>
 
 int main() {
@@ -113,7 +121,8 @@ int main() {
     printf("\n");
     return 0;
 }
-_______________________________________________________________________________________________________________________//continue : Cette commande est utilisée pour sauter le reste du code dans une itération donnée d'une boucle et passer à l'itération suivante.
+_______________________________________________________________________________________________________________________
+//continue : Cette commande est utilisée pour sauter le reste du code dans une itération donnée d'une boucle et passer à l'itération suivante.
 														       #include <stdio.h>
 
 int main() {
@@ -127,7 +136,8 @@ int main() {
     printf("\n");
     return 0;
 }
-_______________________________________________________________________________________________________________________//return : Cette commande est utilisée pour renvoyer une valeur depuis une fonction. Elle met fin à l'exécution de la fonction et renvoie la valeur spécifiée.
+_______________________________________________________________________________________________________________________
+//return : Cette commande est utilisée pour renvoyer une valeur depuis une fonction. Elle met fin à l'exécution de la fonction et renvoie la valeur spécifiée.
 														       #include <stdio.h>
 
 int addNumbers(int a, int b) {
@@ -139,7 +149,8 @@ int main() {
     printf("La somme est : %d\n", sum);
     return 0;
 }
-_______________________________________________________________________________________________________________________//typedef : Cette commande est utilisée pour créer des alias de types de données existants. Elle permet de définir des noms plus conviviaux pour des types de données complexes.
+_______________________________________________________________________________________________________________________
+//typedef : Cette commande est utilisée pour créer des alias de types de données existants. Elle permet de définir des noms plus conviviaux pour des types de données complexes.
 														       #include <stdio.h>
 
 typedef struct {
@@ -154,7 +165,8 @@ int main() {
     printf("Coordonnées : (%d, %d)\n", p.x, p.y);
     return 0;
 }
-_______________________________________________________________________________________________________________________//struct : Cette commande est utilisée pour créer une structure de données personnalisée. Elle permet de regrouper des variables de différents types dans une seule entité.
+_______________________________________________________________________________________________________________________
+//struct : Cette commande est utilisée pour créer une structure de données personnalisée. Elle permet de regrouper des variables de différents types dans une seule entité.
 														       #include <stdio.h>
 
 struct Person {
@@ -169,7 +181,8 @@ int main() {
     printf("Nom : %s, Age : %d\n", person1.name, person1.age);
     return 0;
 }
-_______________________________________________________________________________________________________________________//enum : Cette commande est utilisée pour définir une énumération. Elle permet de créer un ensemble de constantes symboliques.
+_______________________________________________________________________________________________________________________
+//enum : Cette commande est utilisée pour définir une énumération. Elle permet de créer un ensemble de constantes symboliques.
 														       #include <stdio.h>
 
 enum Days {MON, TUE, WED, THU, FRI, SAT, SUN};
@@ -179,7 +192,8 @@ int main() {
     printf("Aujourd'hui est le jour numéro : %d\n", today);
     return 0;
 }
-_______________________________________________________________________________________________________________________//sizeof : Cette commande est utilisée pour obtenir la taille en octets d'un type de données ou d'une variable.
+_______________________________________________________________________________________________________________________
+//sizeof : Cette commande est utilisée pour obtenir la taille en octets d'un type de données ou d'une variable.
 														       #include <stdio.h>
 
 int main() {
